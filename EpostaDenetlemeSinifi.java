@@ -1,4 +1,4 @@
-package com.mimaraslan;
+package com.;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -11,7 +11,7 @@ import javax.faces.validator.Validator;
 import javax.faces.validator.ValidatorException;
 
 
-@FacesValidator("com.mimaraslan.EpostaDenetlemeSinifi")
+@FacesValidator("com.")
 public class EpostaDenetlemeSinifi implements Validator {
 
     private static final String EPOSTA_PATTERN =
