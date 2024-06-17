@@ -45,10 +45,10 @@ public class YonetimliBean implements Serializable {
 //---------------------------
     private static final ArrayList<Personel> personelListesi =
         new ArrayList<Personel>(Arrays.asList(
-        new Personel("571", "Hureyre Yıldırım", 28, new BigDecimal("1900.00")),
-        new Personel("1299", "Necip Eren Demir", 22, new BigDecimal("1500.00")),
-        new Personel("1326", "Ahmet Kaplan", 20, new BigDecimal("1800.00")),
-        new Personel("632", "Murat Türkyilmaz", 23, new BigDecimal("1300.00")))
+        new Personel("571", "Alper İslam", 28, new BigDecimal("1900.00")),
+        new Personel("1299", "Furkan Çeker", 22, new BigDecimal("1500.00")),
+        new Personel("1326", "Mete Sungurtaş", 20, new BigDecimal("1800.00")),
+        new Personel("632", "Mehmet Aydın", 23, new BigDecimal("1300.00")))
             );
 //---------------------------
     public ArrayList<Personel> getPersonelListesi() {
